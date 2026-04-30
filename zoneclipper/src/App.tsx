@@ -1,18 +1,12 @@
+import AppRouter from "@/app/router";
+import { AppProviders } from "@/app/providers";
 
-// Style CSS
-import './App.css'
-
-// Shadcn UI
-import { Button } from '@/components/ui/button'
-
+// App
 const App = () => {
-
   return (
-    <div className="app">
-      <h1 className='text-3xl font-bold underline'> ZoneClipper AI </h1>
-
-      <Button onClick={() => alert('Welcome to ZoneClipper AI')}>Click me</Button>
-    </div>
+    <AppProviders>
+      <AppRouter />
+    </AppProviders>
   )
 }
 
