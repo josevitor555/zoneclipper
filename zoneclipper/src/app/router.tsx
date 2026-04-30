@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ClipperPage from "@/features/clipper/pages/ClipperPage";
 import AnalysisPage from "@/features/analytics/pages/AnalysisPage";
 import LibraryPage from "@/features/libraries/pages/LibraryPage";
+import ClipDetailsPage from "@/features/clips/pages/ClipDetailsPage";
 
 // Router
 const AppRouter = () => {
@@ -20,6 +21,9 @@ const AppRouter = () => {
 
                 {/* Library Page */}
                 <Route path="/library" element={<LibraryPage />} />
+
+                {/* Clip Details Page */}
+                <Route path="/clip" element={<ClipDetailsPage />} />
             </Routes>
         </BrowserRouter>
     )

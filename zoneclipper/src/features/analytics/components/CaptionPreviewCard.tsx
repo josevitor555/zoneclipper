@@ -15,14 +15,14 @@ const CaptionPreviewCard: React.FC = () => {
                 <div className="relative aspect-[9/16] w-full bg-muted/30 rounded-2xl overflow-hidden border border-border/50 group">
                     {/* Simulated Video Content */}
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/60" />
-                    
+
                     {/* Animated Glow/Effect */}
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] h-[150%] bg-primary/5 rounded-full blur-[100px] animate-pulse" />
 
                     {/* Overlay Captions */}
                     <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
                         <div className="space-y-2 animate-in fade-in zoom-in duration-1000">
-                            <span className="inline-block bg-primary text-primary-foreground px-2 py-0.5 text-[10px] font-black uppercase tracking-tighter rounded">
+                            <span className="inline-block bg-primary text-primary-foreground px-2 py-0.5 text-sm font-semibold uppercase tracking-tighter rounded">
                                 Viral Moment
                             </span>
                             <p className="text-xl md:text-2xl font-black text-white uppercase italic tracking-tighter leading-none [text-shadow:_0_4px_12px_rgb(0_0_0_/_50%)]">

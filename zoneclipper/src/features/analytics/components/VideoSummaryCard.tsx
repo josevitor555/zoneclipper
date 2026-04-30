@@ -53,24 +53,24 @@ const VideoSummaryCard: React.FC<VideoSummaryCardProps> = ({
                         <div className="p-4 bg-muted/30 border border-border/50 rounded-2xl flex flex-col items-center justify-center text-center space-y-1">
                             <Clock className="w-5 h-5 text-muted-foreground" />
                             <span className="text-lg font-bold text-foreground">{duration}</span>
-                            <span className="text-[10px] uppercase text-muted-foreground font-semibold">Duration</span>
+                            <span className="text-sm text-muted-foreground font-semibold">Duration</span>
                         </div>
                         <div className="p-4 bg-primary/10 border border-primary/20 rounded-2xl flex flex-col items-center justify-center text-center space-y-1">
                             <Zap className="w-5 h-5 text-primary" />
                             <span className="text-lg font-bold text-primary">{viralScore}%</span>
-                            <span className="text-[10px] uppercase text-primary/70 font-semibold">Viral Score</span>
+                            <span className="text-sm text-primary/70 font-semibold">Viral Score</span>
                         </div>
                         <div className="p-4 bg-muted/30 border border-border/50 rounded-2xl flex flex-col items-center justify-center text-center space-y-1">
                             <Target className="w-5 h-5 text-muted-foreground" />
                             <span className="text-lg font-bold text-foreground">{hooksDetected}</span>
-                            <span className="text-[10px] uppercase text-muted-foreground font-semibold">Hooks</span>
+                            <span className="text-sm text-muted-foreground font-semibold">Hooks</span>
                         </div>
                         <div className="p-4 bg-muted/30 border border-border/50 rounded-2xl flex flex-col items-center justify-center text-center space-y-1">
                             <div className="w-5 h-5 flex items-center justify-center">
                                 <span className="text-lg leading-none font-bold">#</span>
                             </div>
                             <span className="text-lg font-bold text-foreground">{clipsFound}</span>
-                            <span className="text-[10px] uppercase text-muted-foreground font-semibold">Clips Found</span>
+                            <span className="text-sm text-muted-foreground font-semibold">Clips Found</span>
                         </div>
                     </div>
                 </div>

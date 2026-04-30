@@ -28,10 +28,10 @@ const LibraryStatsCard: React.FC<LibraryStatsCardProps> = ({
             </div>
 
             <div className="space-y-1">
-                <div className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">
+                <div className="text-xl md:text-2xl font-bold tracking-tight text-foreground">
                     {value}
                 </div>
-                <p className="text-base text-muted-foreground/80">
+                <p className="text-sm text-muted-foreground/80">
                     {description}
                 </p>
             </div>

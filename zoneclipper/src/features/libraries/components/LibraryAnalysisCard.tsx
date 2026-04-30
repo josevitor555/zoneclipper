@@ -30,9 +30,9 @@ const LibraryAnalysisCard: React.FC<LibraryAnalysisCardProps> = ({
     index
 }) => {
     const statusColors = {
-        completed: "bg-emerald-500/10 text-emerald-500 border-emerald-500/20",
-        processing: "bg-amber-500/10 text-amber-500 border-amber-500/20",
-        failed: "bg-rose-500/10 text-rose-500 border-rose-500/20",
+        completed: "bg-primary/10 text-primary border-primary/20",
+        processing: "bg-muted text-muted-foreground border-border",
+        failed: "bg-muted/50 text-muted-foreground border-border opacity-60",
     };
 
     const statusIcons = {
