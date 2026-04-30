@@ -2,7 +2,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Pages (features)
-import HomePage from '@/pages/Home'
+import ClipperPage from "@/features/clipper/pages/ClipperPage";
 
 // Router
 const AppRouter = () => {
@@ -14,7 +14,7 @@ const AppRouter = () => {
                 <Route path="/" element={<div>404 Not Found</div>} />
 
                 {/* Home Page */}
-                <Route path="/home" element={<HomePage />} />
+                <Route path="/home" element={<ClipperPage />} />
             </Routes>
         </BrowserRouter>
     )
