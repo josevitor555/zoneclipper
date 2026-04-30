@@ -10,11 +10,8 @@ const AppRouter = () => {
         <BrowserRouter>
             <Routes>
 
-                {/* 404 Not found */}
-                <Route path="/" element={<div>404 Not Found</div>} />
-
                 {/* Home Page */}
-                <Route path="/home" element={<ClipperPage />} />
+                <Route path="/" element={<ClipperPage />} />
             </Routes>
         </BrowserRouter>
     )
