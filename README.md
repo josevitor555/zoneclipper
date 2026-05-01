@@ -52,9 +52,4 @@ For technical breakdowns and rapid-fire tutorials in the form of Shorts, visit t
 
 ---
 
-## License
-
-This project is released under the MIT License. For further details, please refer to the LICENSE file.
-
----
 *Developed by [DevZoneAI](https://www.youtube.com/@DevZoneAI)*
