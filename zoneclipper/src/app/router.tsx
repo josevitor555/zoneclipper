@@ -7,6 +7,8 @@ import AnalyticsDashboardPage from "@/features/analytics/pages/AnalyticsDashboar
 import LibraryPage from "@/features/libraries/pages/LibraryPage";
 import ClipEditorPage from "@/features/clips/pages/ClipEditorPage";
 import { LoginPage } from "@/features/auth/pages/LoginPage";
+import { RegisterPage } from "@/features/auth/pages/RegisterPage";
+import { ForgotPasswordPage } from "@/features/auth/pages/ForgotPasswordPage";
 
 // Router
 const AppRouter = () => {
@@ -17,8 +19,10 @@ const AppRouter = () => {
                 {/* Home Page */}
                 <Route path="/" element={<ClipperPage />} />
 
-                {/* Login Page */}
+                {/* Auth Pages */}
                 <Route path="/login" element={<LoginPage />} />
+                <Route path="/register" element={<RegisterPage />} />
+                <Route path="/forgot-password" element={<ForgotPasswordPage />} />
 
                 {/* Video Details Page */}
                 <Route path="/video-details" element={<AnalyticsDashboardPage />} />
