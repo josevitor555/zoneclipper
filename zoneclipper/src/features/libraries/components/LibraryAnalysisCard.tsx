@@ -105,7 +105,7 @@ const LibraryAnalysisCard: React.FC<LibraryAnalysisCardProps> = ({
 
                 {/* Actions */}
                 <div className="flex items-center gap-2 w-full md:w-auto">
-                    <Link to="/analysis" className="flex-1">
+                    <Link to="/video-details" className="flex-1">
                         <Button
                             className="w-full bg-foreground text-background hover:opacity-90 rounded-xl h-11 px-5 font-semibold transition-all"
                             disabled={status !== 'completed'}
