@@ -54,7 +54,7 @@ export const ClipMetadataCard: React.FC<ClipMetadataCardProps> = ({ viralScore, 
             </div>
 
             <div className="mt-6">
-                <p className="text-sm font-semibold text-muted-foreground uppercase tracking-widest mb-2">AI Reason</p>
+                <p className="text-base font-semibold text-muted-foreground mb-2">AI Reason</p>
                 <div className="p-3 rounded-xl bg-background border border-border leading-relaxed">
                     <p className="text-sm text-muted-foreground">"{reason}"</p>
                 </div>

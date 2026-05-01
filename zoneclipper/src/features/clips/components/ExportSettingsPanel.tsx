@@ -1,6 +1,6 @@
 import React from "react";
 import { Download, Share2, Music2, Layers, Play, PlayCircle } from "lucide-react";
-import { Button } from "../../../components/ui/button";
+import { Button } from "@/components/ui/button";
 
 export const ExportSettingsPanel: React.FC = () => {
     return (

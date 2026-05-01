@@ -6,6 +6,7 @@ import ClipperPage from "@/features/clipper/pages/ClipperPage";
 import AnalysisPage from "@/features/analytics/pages/AnalysisPage";
 import LibraryPage from "@/features/libraries/pages/LibraryPage";
 import ClipDetailsPage from "@/features/clips/pages/ClipDetailsPage";
+import { LoginPage } from "@/features/auth/pages/LoginPage";
 
 // Router
 const AppRouter = () => {
@@ -15,6 +16,9 @@ const AppRouter = () => {
 
                 {/* Home Page */}
                 <Route path="/" element={<ClipperPage />} />
+
+                {/* Login Page */}
+                <Route path="/login" element={<LoginPage />} />
 
                 {/* Analysis Page */}
                 <Route path="/analysis" element={<AnalysisPage />} />

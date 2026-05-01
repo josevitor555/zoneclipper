@@ -77,8 +77,8 @@ const CaptionPreviewCard: React.FC = () => {
             </div>
 
             {/* Platform Badge */}
-            <div className="bg-muted/10 border border-border/30 rounded-2xl p-4 flex items-center justify-center gap-4 animate-in fade-in slide-in-from-right-4 duration-700 delay-300">
-                <span className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest">Optimized for</span>
+            <div className="bg-muted/10 border border-border/30 rounded-full p-4 flex items-center justify-center gap-4 animate-in fade-in slide-in-from-right-4 duration-700 delay-300">
+                <span className="text-base font-semibold text-muted-foreground">Optimized for</span>
                 <div className="flex items-center gap-3 opacity-50">
                     <div className="w-4 h-4 bg-muted-foreground rounded-sm" />
                     <div className="w-4 h-4 bg-muted-foreground rounded-full" />
