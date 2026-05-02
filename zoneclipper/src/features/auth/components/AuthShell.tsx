@@ -70,7 +70,9 @@ const AuthShell: React.FC<AuthShellProps> = ({ title, description, children }) =
                     <div className="pt-10 border-t border-border/20">
                         <p className="text-base font-semibold text-muted-foreground/60 flex items-center justify-center gap-2">
                             Developed for
-                            <span className="text-foreground border-b border-primary/50">DevZoneAI</span>
+                            <a href="https://www.youtube.com/@DevZoneAI" target="_blank">
+                                <span className="text-foreground border-b border-primary/50 hover:border-primary">DevZoneAI</span>
+                            </a>
                             YouTube Channel
                         </p>
                     </div>
